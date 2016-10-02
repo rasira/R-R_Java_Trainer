@@ -15,14 +15,18 @@ public class exercise
 	private String taskText , exerciseFileName;
 	private double recordedTimeTakenToSolve;
 	
-        void exercise () {
-		shown=false;
-		taskText="No task has been loaded";
-		recordedTimeTakenToSolve=-1;
-		exerciseFileName="";
+        public exercise () {
+		this.shown=true;
+		this.taskText="No task has been loaded";
+		this.recordedTimeTakenToSolve=-1;
+		this.exerciseFileName="";
+		System.out.println("Sup");
 	}
 
-	void readExercise (String exerciseFileName) {
+	public void showExerciseAttribs() {
+		System.out.println("tasktext: " + taskText +"\nShown or not: "+shown+"\n time:" + recordedTimeTakenToSolve + "\n filename: " + exerciseFileName);
+	}
+	public void readExercise (String exerciseFileName) {
 		this.exerciseFileName=exerciseFileName;
 		Scanner in = new Scanner("../exercises/"+ exerciseFileName);
 	}

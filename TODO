@@ -4,9 +4,11 @@ Important:
 			-Class needs:
 			- Currently shown indicator
 			- Solution field
-			- Previously recorded time taken
 			- more stuff?
 			- Type of problem (Read code or read output?)
+		- Make class for listing tasks
+			- Language
+			- Array of exercises
 		- Write task to screen (as class routine?)
 	- Take input from user
 		- Input class:
@@ -19,3 +21,7 @@ Important:
 	- Read if correct answer
 	
 Other stuff:
+	- Class for personal information: profile:
+		- Time on each exercise
+		- Number of tries
+		- Which exercises have been done
