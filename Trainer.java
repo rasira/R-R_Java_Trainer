@@ -6,7 +6,8 @@ public class Trainer
 	{
 		//Test reads:
 		exercise testExercise = new exercise();
-		testExercise.showExerciseAttribs();
+		testExercise.readExercise("writeIF.task");
+		//testExercise.showExerciseAttribs();
 	}
 
 }

@@ -28,6 +28,21 @@ public class exercise
 	}
 	public void readExercise (String exerciseFileName) {
 		this.exerciseFileName=exerciseFileName;
-		Scanner in = new Scanner("../exercises/"+ exerciseFileName);
+		Scanner in = new Scanner(System.in);//"../exercises/"+ exerciseFileName);
+		File filename= new File("exercises/"+exerciseFileName);
+		System.out.println(filename);
+		try
+		{
+			in = new Scanner(filename);
+			while (in.hasNextLine()) {
+				String line=in.nextLine();
+				System.out.println(line);
+			}
+		}
+		catch (FileNotFoundException ex)
+		{
+			//Do nothing?
+			System.out.println("Error in reading file");
+		}
 	}
 }
