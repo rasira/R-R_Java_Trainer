@@ -5,6 +5,7 @@ public class Trainer
 	{
 
 		System.out.println("ehm");
+	    	System.out.println("eh");
 	}
 
 }
