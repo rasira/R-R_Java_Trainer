@@ -1,0 +1,21 @@
+Important:
+	- Read task from file
+		- Make class for tasks 
+			-Class needs:
+			- Currently shown indicator
+			- Solution field
+			- Previously recorded time taken
+			- more stuff?
+			- 
+		- Write task to screen (as class routine?)
+	- Take input from user
+		- Input class:
+			- hmmm
+	- Write input to file
+	- Compile input
+		- Handle errors in compilation
+	- run compiled file
+		- Handle errors in runtime
+	- Read if correct answer
+	
+Other stuff:
