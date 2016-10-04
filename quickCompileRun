@@ -1,0 +1,2 @@
+javac Trainer.java
+java Trainer
