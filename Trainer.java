@@ -13,7 +13,7 @@ public class Trainer
 		testExercise.readExercise("writeIF.task");
 		testExercise.showExerciseAttribs();
 
-		new gui();
+		//		new gui();
 
 		//Tests array of exercise, listExercises
 		listExercises list = new listExercises();
