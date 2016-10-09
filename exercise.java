@@ -78,4 +78,9 @@ public class exercise
 		}
 		return caseNum;
 	}
+
+    public String getTaskText() {
+        return taskText;
+    }
+
 }
